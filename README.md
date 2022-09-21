@@ -7,4 +7,4 @@ Created application where taking the 3 input from user i.e intial price of stock
 * JavaScript
 
 ## Live Project
-[View Project](https://stockprofitandlosscalculator-mark14.netlify.app/)
+[Profit&LossCalculator](https://stockprofitandlosscalculator-mark14.netlify.app/)
