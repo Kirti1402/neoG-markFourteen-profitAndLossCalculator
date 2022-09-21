@@ -2,38 +2,40 @@
 
 :root {
     --primary-color: #645CAA;
-   --button-color: #A084CA;
-   --background-light: #EEF2E6;
-   --input-text-color:#3D550C;
-   --error-color:red;
+    --button-color: #A084CA;
+    --background-light: #EEF2E6;
+    --input-text-color: #3D550C;
+    --error-color: red;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Zilla Slab', serif;
     background-color: var(--background-light);
 }
 
-button,input{
+button,
+input {
     font-family: inherit;
 }
 
 
-.text{
+.text {
     text-align: center;
     color: var(--error-color);
 }
 
-#output{
+#output {
     text-align: center;
 }
 
 header {
     /* margin-bottom: 10px; */
-    text-align: center ;
+    text-align: center;
     color: var(--background-light);
     background-color: var(--primary-color);
     padding: 15px;
@@ -43,28 +45,29 @@ header {
     height: 54px;
 }
 
-.main{
+.main {
 
-    background-color:var(--background-light);
+    background-color: var(--background-light);
     border-radius: 25px;
     height: 405px;
 
 }
 
-label{
+label {
     /* margin: 20px; */
     padding: 15px;
     display: block;
-  text-align: center;
+    text-align: center;
 }
-input{
+
+input {
     border: 3px solid var(--button-color);
     display: block;
     margin: auto;
     max-width: 250px;
 }
 
-button{
+button {
     border-radius: 10px;
     cursor: pointer;
     width: 150px;
@@ -77,13 +80,9 @@ button{
     color: var(--background-light);
 }
 
+.footer-container {
 
-
-
-
-.footer-container{
-
-    text-align: center ;
+    text-align: center;
     color: var(--background-light);
     background-color: var(--primary-color);
     padding: 10px;
@@ -102,6 +101,5 @@ li {
 
 .link {
     text-decoration: none;
-    color: white;
+    color: var(--background-light);
 }
-
